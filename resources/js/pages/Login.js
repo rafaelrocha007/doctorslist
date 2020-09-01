@@ -6,6 +6,7 @@ function Login() {
     const history = useHistory();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [loginError, setLoginError] = useState('');
 
     useEffect(() => {
         (async () => {
@@ -22,9 +23,8 @@ function Login() {
                 history.push('/home');
             })
             .catch(() => {
-                console.log('error login');
+                setLoginError('Erro ao efetuar login.');
                 setToken('');
-                //history.push('/')
             })
     };
 
@@ -42,6 +42,7 @@ function Login() {
                     <div className="card text-center p-5">
                         <div className="card-body d-flex flex-column justify-content-center align-items-center">
                             <h5 className="card-title">Seja bem vindo!</h5>
+                            {!!loginError && (<b className="text-danger">{loginError}</b>)}
                             <form onSubmit={doLogin}>
                                 <input type="text" className="form-control my-2" placeholder="email"
                                        aria-label="Pesquise por Nome ou CRM" aria-describedby="email" required
