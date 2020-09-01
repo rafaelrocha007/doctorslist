@@ -47,7 +47,7 @@ function Search() {
                                         </button>
 
                                         <Link to="/doctor" className="btn btn-primary" type="button">
-                                            <i className="fa fa-user-alt"/>
+                                            <i className="fa fa-user-alt"/>&nbsp;<i className="fa fa-plus"/>
                                         </Link>
                                     </div>
                                 </div>
