@@ -2,13 +2,13 @@
 
 Listagem e criação de uma lista de médicos e suas especialidades através de uma API REST segurada por JWT.
 
-##Backend
+## Backend
 Backend baseado em Laravel 7.x, MySQL 5.7 e PHP 7.3.
 Ambiente de desenvolvimento baseado em containers docker https://hub.docker.com/r/rafaelrocha007/laravel
 
-##Frontend
+## Frontend
 
-##Instruções e requisitos
+## Instruções e requisitos
 
 Para rodar em ambiente de desenvolvimento é necessário instalar o docker e docker-compose, feito isso, basta seguir os passos:
 
@@ -36,3 +36,20 @@ Faça a carga inicial de dados de usuários (users) e tabela de especialidades (
     php artisan db:seed
 
 O login padrão é __admin@email.com__ com a senha __123456__
+
+## Screenshots
+
+![Login form](https://github.com/rafaelrocha007/doctorslist/blob/feature/master/screenshots/DoctorsList-login.png?raw=true)  
+Formulário de login  
+
+![Edit form](https://github.com/rafaelrocha007/doctorslist/blob/feature/master/screenshots/DoctorsList-empty-search-or-resultset.png?raw=true)  
+Pesquisa vazia ou banco de dados vazio   
+
+![Edit form](https://github.com/rafaelrocha007/doctorslist/blob/feature/master/screenshots/DoctorsList-search-results.png?raw=true)  
+Resultado da pesquisa (inicia-se com todos os resultados caso haja registros salvos)  
+
+![Edit form](https://github.com/rafaelrocha007/doctorslist/blob/feature/master/screenshots/DoctorsList-new-form.png?raw=true)  
+Novo registro  
+  
+![Edit form](https://github.com/rafaelrocha007/doctorslist/blob/feature/master/screenshots/DoctorsList-edit-form.png?raw=true)  
+Editando registro  
