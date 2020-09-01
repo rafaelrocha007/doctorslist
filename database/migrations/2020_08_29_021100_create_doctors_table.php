@@ -16,7 +16,7 @@ class CreateDoctorsTable extends Migration
         Schema::create('doctors', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->string('crm');
+            $table->string('crm', 150);
             $table->string('phone','11');
             $table->timestamps();
 
