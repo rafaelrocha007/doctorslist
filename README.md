@@ -12,11 +12,20 @@ Ambiente de desenvolvimento baseado em containers docker https://hub.docker.com/
 
 Para rodar em ambiente de desenvolvimento é necessário instalar o docker e docker-compose, feito isso, basta seguir os passos:
 
-Clonar o projeto
+Clonar o projeto  
+IMPORTANTE: caso esteja usando Windows, cuide para que os arquivos do projeto estejam com a quebra de linha LF (\n) pois a quebra de linha padrão no Windows é CRLF (\r\n) o que causa interrupção de execução do entrypoint no container.
 
-git clone https://github.com/rafaelrocha007/doctors.git meu-projeto
+    git clone https://github.com/rafaelrocha007/doctors.git meu-projeto
 
     cd meu-projeto
+    
+Variáveis de ambiente pré-configuradas, mas podem ser alteradas caso necessário
+ 
+    cp .env.example .env      
+    
+Nova cópia para a pasta .docker/app necessária para ser usada no template do dockerize
+
+    cp .env .docker/app/.env  
 
     docker-compose up --build
 
