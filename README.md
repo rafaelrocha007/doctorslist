@@ -37,19 +37,19 @@ Faça a carga inicial de dados de usuários (users) e tabela de especialidades (
 
 O login padrão é __admin@email.com__ com a senha __123456__
 
-## Screenshots
+## Screenshots 
 
-![Login form](https://github.com/rafaelrocha007/doctorslist/blob/feature/master/screenshots/DoctorsList-login.png?raw=true)  
+![Login form](https://github.com/rafaelrocha007/doctorslist/blob/master/screenshots/DoctorsList-login.png?raw=true)  
 Formulário de login  
 
-![Edit form](https://github.com/rafaelrocha007/doctorslist/blob/feature/master/screenshots/DoctorsList-empty-search-or-resultset.png?raw=true)  
+![Edit form](https://github.com/rafaelrocha007/doctorslist/blob/master/screenshots/DoctorsList-empty-search-or-resultset.png?raw=true)  
 Pesquisa vazia ou banco de dados vazio   
 
-![Edit form](https://github.com/rafaelrocha007/doctorslist/blob/feature/master/screenshots/DoctorsList-search-results.png?raw=true)  
+![Edit form](https://github.com/rafaelrocha007/doctorslist/blob/master/screenshots/DoctorsList-search-results.png?raw=true)  
 Resultado da pesquisa (inicia-se com todos os resultados caso haja registros salvos)  
 
-![Edit form](https://github.com/rafaelrocha007/doctorslist/blob/feature/master/screenshots/DoctorsList-new-form.png?raw=true)  
+![Edit form](https://github.com/rafaelrocha007/doctorslist/blob/master/screenshots/DoctorsList-new-form.png?raw=true)  
 Novo registro  
   
-![Edit form](https://github.com/rafaelrocha007/doctorslist/blob/feature/master/screenshots/DoctorsList-edit-form.png?raw=true)  
+![Edit form](https://github.com/rafaelrocha007/doctorslist/blob/master/screenshots/DoctorsList-edit-form.png?raw=true)  
 Editando registro  
