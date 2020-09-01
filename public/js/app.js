@@ -73769,6 +73769,7 @@ function Form() {
     placeholder: "Telefone",
     required: true,
     value: phone,
+    maxLength: 11,
     onChange: function onChange(e) {
       return setPhone(e.target.value);
     }

@@ -22,6 +22,8 @@ git clone https://github.com/rafaelrocha007/doctors.git meu-projeto
 
 Com os containers rodando o frontend ficará disponível em http://localhost:8000 e a API ficará disponível em http://localhost:8000/api 
 
-Popular tabela de especialidades (specialties)
+Faça a carga inicial de dados de usuários (users) e tabela de especialidades (specialties)
 
     php artisan db:seed
+
+O login padrão é __admin@email.com__ com a senha __123456__

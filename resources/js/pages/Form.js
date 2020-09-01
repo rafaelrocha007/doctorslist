@@ -105,6 +105,7 @@ function Form() {
                                        placeholder="Telefone"
                                        required
                                        value={phone}
+                                       maxLength={11}
                                        onChange={e => setPhone(e.target.value)}/>
 
                                 <hr/>
