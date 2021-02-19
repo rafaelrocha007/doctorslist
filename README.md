@@ -15,7 +15,7 @@ Para rodar em ambiente de desenvolvimento é necessário instalar o docker e doc
 Clonar o projeto  
 IMPORTANTE: caso esteja usando Windows, cuide para que os arquivos do projeto estejam com a quebra de linha LF (\n) pois a quebra de linha padrão no Windows é CRLF (\r\n) o que causa interrupção de execução do entrypoint no container.
 
-    git clone https://github.com/rafaelrocha007/doctors.git meu-projeto
+    git clone https://github.com/rafaelrocha007/doctorslist.git meu-projeto
 
     cd meu-projeto
     
